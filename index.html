@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Translate</title>
+</head>
+<body>
+    
+    <div>
+    <h1> The Dragon Slayer🦕 - Lily🗡️</h1>
+   <div class='Translate' id="google_translate_element"></div>
+   <!-- https://cloud.google.com/translate?hl=zh-tw -->
+    
+    <p>Once upon a time, in a small village nestled in the heart of a dense forest, there lived a young girl named Lily. She was known throughout the village for her kind heart and gentle nature. Lily lived with her parents in a small cottage at the edge of the forest, where they grew vegetables and raised a few chickens.</p>
+
+    <p>One day, while gathering firewood in the forest, Lily stumbled upon a small, injured bird. She carefully picked up the bird and brought it back to her cottage, where she tended to its wounds and nursed it back to health. The bird, a beautiful golden finch, soon became her constant companion, following her wherever she went.</p>
+
+    <p>As the years passed, Lily grew into a beautiful young woman, but she remained humble and kind, always willing to help those in need. Her parents were proud of her, and the villagers looked up to her as a role model.</p>
+
+    <p>One day, a terrible dragon appeared in the forest, breathing fire and causing destruction wherever it went. The villagers were terrified, and many fled their homes in fear. But Lily refused to leave her village, and instead, she decided to confront the dragon.</p>
+
+    <p>With her faithful companion, the golden finch, by her side, Lily set out to face the dragon. As she approached the beast, she could feel the heat of its fiery breath on her face. But she stood her ground, determined to protect her village.</p>
+
+    <p>The dragon roared and lunged at Lily, but she was quick and nimble, dodging its attacks with ease. With a swift stroke of her sword, she struck the dragon's heart, and the beast fell to the ground, defeated.</p>
+
+    <p>The villagers cheered as Lily emerged victorious, and they hailed her as a hero. From that day on, Lily was known throughout the land as the Dragon Slayer, and her legend lived on for generations to come.</p>
+
+    <p>Years later, when Lily was an old woman, she passed away peacefully in her sleep, surrounded by her loved ones. But her memory lived on, and the villagers continued to tell stories of her bravery and kindness for many years to come.</p>
+</div>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<script>
+    function googleTranslateElementInit(){
+        new google.translate.TranslateElement({
+            defaultLanguage: 'en',
+            pageLanguage: 'en',
+            layout:google.translate.TranslateElement.InlineLayout.SIMPLE,
+            autoDisplay: false,
+            multilanguagePage: true},
+            'google_translate_element');
+    };
+</script>
+</body>
+</html>
